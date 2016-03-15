@@ -1,0 +1,11 @@
+{
+  "name": "advanced_tech",
+  "version": "1.0.5",
+  "title": "Advanced Tech",
+  "author": "-",
+  "contact": "-",
+  "homepage": "-",
+  "description": "A mod that adds a new tech tree.",
+  "dependencies": ["base"]
+}
+

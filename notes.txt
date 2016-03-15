@@ -1,0 +1,25 @@
+LAB
+hue 89
+
+
+FAST ELECTIRC FURNACE
+hue 86
+
+
+SHORT INSERTER
+hue 72 
+set tech tier
+
+
+BATTLE TANK
+hue 94
+
+
+add advanced solar
+needs lumium
+oil product
+
+
+advanced repair packs
+ad
+s
