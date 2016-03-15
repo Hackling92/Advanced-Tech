@@ -45,5 +45,14 @@ data:extend(
     subgroup = "transport",
     place_result = "battle-tank",
     stack_size = 1
+  },
+  {
+    type = "item",
+    name = "advanced-solar-panel",
+    icon = "__advanced_tech__/graphics/icons/advanced-solar-panel.png",
+    flags = {"goes-to-quickbar"},
+    subgroup = "energy",
+    place_result = "advanced-solar-panel",
+    stack_size = 50
   }
 })

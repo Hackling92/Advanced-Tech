@@ -48,6 +48,10 @@ data:extend(
         type = "unlock-recipe",
         recipe = "battle-tank"
       },
+	  {
+        type = "unlock-recipe",
+        recipe = "advanced-solar-panel"
+      },
     },
     prerequisites = {"advanced-tech-1"},
     unit =

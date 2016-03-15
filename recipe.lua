@@ -60,5 +60,18 @@ data:extend(
 	  {"processing-unit", 50}
     },
     result = "battle-tank"
-  }
+  },
+  {
+    type = "recipe",
+    name = "advanced-solar-panel",
+    energy_required = 10,
+    enabled = false,
+    ingredients =
+    {
+      {"solar-panel", 10},
+      {"advanced-circuit", 50},
+      {"copper-plate", 5}
+    },
+    result = "advanced-solar-panel"
+  },
 })
