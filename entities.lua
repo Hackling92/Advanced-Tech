@@ -551,4 +551,28 @@ data:extend(
     inventory_size = 80,
     guns = { "tank-cannon", "tank-machine-gun" },
   }
+    {
+    type = "advanced-solar-panel",
+    name = "advanced-solar-panel",
+    icon = "__advanced_tech__/graphics/icons/solar-panel.png",
+    flags = {"placeable-neutral", "player-creation"},
+    minable = {hardness = 0.2, mining_time = 0.5, result = "advanced-solar-panel"},
+    max_health = 100,
+    corpse = "big-remnants",
+    collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
+    selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+    energy_source =
+    {
+      type = "electric",
+      usage_priority = "solar"
+    },
+    picture =
+    {
+      filename = "__advanced_tech__/graphics/entity/advanced-solar-panel/advanced-solar-panel.png",
+      priority = "high",
+      width = 104,
+      height = 96
+    },
+    production = "600kW"
+  },
 })
