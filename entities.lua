@@ -550,11 +550,11 @@ data:extend(
     weight = 20000,
     inventory_size = 80,
     guns = { "tank-cannon", "tank-machine-gun" },
-  }
-    {
-    type = "advanced-solar-panel",
+  },
+  {
+    type = "solar-panel",
     name = "advanced-solar-panel",
-    icon = "__advanced_tech__/graphics/icons/solar-panel.png",
+    icon = "__advanced_tech__/graphics/icons/advanced-solar-panel.png",
     flags = {"placeable-neutral", "player-creation"},
     minable = {hardness = 0.2, mining_time = 0.5, result = "advanced-solar-panel"},
     max_health = 100,

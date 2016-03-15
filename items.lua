@@ -48,11 +48,11 @@ data:extend(
   },
   {
     type = "item",
-    name = "solar-panel",
+    name = "advanced-solar-panel",
     icon = "__advanced_tech__/graphics/icons/advanced-solar-panel.png",
     flags = {"goes-to-quickbar"},
     subgroup = "energy",
-    place_result = "solar-panel",
+    place_result = "advanced-solar-panel",
     stack_size = 50
   }
 })
